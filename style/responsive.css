@@ -1,4 +1,10 @@
 @media screen and (max-width:576px) {
+    body{
+        background-color: black;
+    }
+    .header-title{
+        font-size: 2.25rem;
+    }
     .nav-menu{
         display: none;
     }
@@ -9,16 +15,28 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+    
     .header-banner{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 146px 88px 20px 20px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
     }
     .header-banner-image{
         width: 353px;
         height: 588px;
     }
     .header-banner-image-all{
-        margin: 20px 100px;
+        margin: 20px auto;
+    }
+    .btn-container-1{
+        margin:10px 20px;
+    }
+    .habit{
+        width: 338px;
+    }
+    .exercise{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
