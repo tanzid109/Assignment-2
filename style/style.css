@@ -102,6 +102,9 @@ ul>li>a {
     height: 100%;
     
 }
+.header-banner-image-all{
+    position: relative;
+}
 .btn-3{
     width: 193px;
     height: 98px;
@@ -214,17 +217,15 @@ ul>li>a {
 .run{
     display: flex;
     justify-content: space-between;
-    position: static;
     margin: 20px auto;
-    width: 1060px;
-    height: 371px;
+    width: 80%;
+    height: auto;
     background-color: rgb(34, 34, 34);
     border-radius: 34px;
 }
 .run-container{
-    width: 443px;
-    margin-top: 20px;
-    margin-left: 54px;
+    width: 40%;
+    margin-left: 3.5rem;
 }
 .run-title{
     font-size: 3rem;
@@ -241,15 +242,19 @@ ul>li>a {
 }
 
 .run-image{
-    height: 312px;
-    width: 366px;
     border-radius: 18px;
     margin: 30px;
+    object-fit: none;
+    object-position: 67% 34%;
+    height: 22rem;
+    width: 24rem;
+    
 }
 /* BMI */
 
 .bmi-container{
-    width: 671px;
+    text-align: center;
+    width: 100%;
     margin: 50px auto;
 }
 .bmi-head{
@@ -268,7 +273,7 @@ ul>li>a {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 20px auto;
     background-color: rgb(34, 34, 34);
 }
@@ -288,8 +293,6 @@ ul>li>a {
 .bmi-table{
     margin-left: 150px;
     margin-top: 20px;
-    width: 310px;
-    height: 210px;
 }
 
 table, td, th{
@@ -356,15 +359,15 @@ table, td, th{
     padding: 50px;
 }
 .trainer-image{
-    margin: 50px auto;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    width: 1060px;
-    height: 604px;
+    max-width: 80%;
+    height: auto;
 }
 /* Feature */
 .feature{
@@ -375,13 +378,20 @@ table, td, th{
     justify-content: space-between;
     align-items: center;
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 70px;
     padding: 50px;
+}
+.feature-head{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    text-align: center;
 }
 .feature-card{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 

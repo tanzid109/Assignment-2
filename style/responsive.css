@@ -1,7 +1,11 @@
 @media screen and (max-width:576px) {
-    .main, footer{
-        display: none;
+
+    /* common style */
+    .header-banner-image, .exercise, .habit{
+        margin: 5px auto;
     }
+
+
     .nav-menu{
         display: none;
     }
@@ -29,7 +33,8 @@
         margin-right: 90px;
     }
     .btn-1, .btn-2{
-        padding: 6%;
+        padding: auto;
+        font-size: 0.8rem;
     }
     .header-banner-image{
         width: auto;
@@ -45,4 +50,108 @@
         margin-left: -35vh;
         margin-top: 40vh;
     }
+    .habit{
+        width: 100%;
+    }
+    .exercise{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .run{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .run-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .run-image{
+        height: 17rem;
+        width: 19rem;
+    }
+    .bt{
+        width: 80%;
+    }
+    .bmi{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:left;
+    }
+    .bmi-container{
+        width: 90%;
+        text-align: left;
+        margin: 10px auto;
+    }
+    .bmi-chart{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        align-items: left;
+        justify-content: center;
+    }
+    .bmi-table{
+        margin-left: 0;
+    }
+    .bmi-calculator-all{
+        margin-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .bmi-calculator{
+        width: 50%;
+    }
+    .bmi-input{
+        padding: 2vw;
+        font-size: 0.8rem;
+        border-radius: 8px;
+    }
+    .trainer-image{
+        margin: 0px auto;
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-container,.get-start{
+        padding: 0;
+        width: 97%;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 3%;
+    }
+    .footer-main{
+        width: 100%;
+    }
+    .condition{
+        font-size: 1.5rem;
+    }
+
 }
