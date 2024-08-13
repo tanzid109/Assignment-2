@@ -97,7 +97,7 @@
     .bmi-chart{
         display: flex;
         flex-direction: column;
-        gap: 10%;
+        gap: 5%;
         align-items: left;
         justify-content: center;
     }
@@ -105,12 +105,9 @@
         margin-left: 0;
     }
     .bmi-calculator-all{
-        margin-right: 0;
+        margin:auto;
         width: 100%;
         text-align: left;
-    }
-    .bmi-calculator{
-        width: 50%;
     }
     .bmi-input{
         padding: 2vw;
