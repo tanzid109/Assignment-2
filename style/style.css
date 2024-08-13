@@ -37,12 +37,13 @@ ul{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-
+    padding: 0;
 
 }
 ul>li{
     list-style: none;
     margin: 0px 10px;
+    padding: 0;
     
 }
 ul>li>a {
@@ -51,6 +52,7 @@ ul>li>a {
 }
 .btn-primary{
     border-radius: 46px;
+    border: none;
     background: rgb(230, 83, 60);
     padding: 8px 20px;
     color: white;
@@ -96,8 +98,8 @@ ul>li>a {
     margin-left: 14px;
 }
 .header-banner-image{
-    width: 349px;
-    height: 580px;
+    width: 100%;
+    height: 100%;
     
 }
 .btn-3{
@@ -111,8 +113,8 @@ ul>li>a {
     text-align: left;
     padding-left: 40px;
     position: absolute;
-    margin-top: 110px;
-    margin-left: -150px;
+    margin-top: 20vh;
+    margin-left: -20vh;
 }
 .btn-3-title{
     color: white;
@@ -134,8 +136,8 @@ ul>li>a {
     background: rgba(255, 255, 255, 0.1);
     text-align: left;
     position: absolute;
-    margin-top: 430px;
-    margin-left: -400px;
+    margin-top: 70vh;
+    margin-left: -60vh;
 }
 .btn-4-title{
     color: white;
@@ -245,6 +247,7 @@ ul>li>a {
     margin: 30px;
 }
 /* BMI */
+
 .bmi-container{
     width: 671px;
     margin: 50px auto;
@@ -264,10 +267,9 @@ ul>li>a {
 .bmi-chart{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+    padding: 20px;
     max-width: 1440px;
-    margin: 88px auto;
+    margin: 20px auto;
     background-color: rgb(34, 34, 34);
 }
 
@@ -275,7 +277,7 @@ ul>li>a {
     font-size: 1.5rem;
     font-weight: 900;
     color: white;
-    margin-bottom: 90px;
+    margin-top: 0;
 }
 .bmi-caption-2{
     font-size: 1.5rem;
@@ -285,6 +287,9 @@ ul>li>a {
 }
 .bmi-table{
     margin-left: 150px;
+    margin-top: 20px;
+    width: 310px;
+    height: 210px;
 }
 
 table, td, th{
@@ -361,8 +366,29 @@ table, td, th{
     width: 1060px;
     height: 604px;
 }
+/* Feature */
+.feature{
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 18px;
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 50px;
+}
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 .footer{
-    background-color:rgba(255, 255, 255, 0.1)
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-top: 120px;
 }
 .footer-container {
     color: white;

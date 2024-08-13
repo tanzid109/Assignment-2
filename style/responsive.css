@@ -1,42 +1,48 @@
 @media screen and (max-width:576px) {
-    body{
-        background-color: black;
-    }
-    .header-title{
-        font-size: 2.25rem;
+    .main, footer{
+        display: none;
     }
     .nav-menu{
         display: none;
     }
     .main-nav{
+        margin: 52px 20px;
         display: flex;
         justify-content: space-between;
-        margin-top: 52px;
-        margin-left: 20px;
-        margin-right: 20px;
+
     }
-    
+    .fa-bars{
+        color: white;
+    }
     .header-banner{
-        margin: 20px auto;
         display: flex;
         flex-direction: column;
-        margin: 10px 20px;
+        margin: 20px;
+    }
+    .header-title{
+        font-size: 2.25rem;
+    }
+    .header-description{
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-right: 90px;
+    }
+    .btn-1, .btn-2{
+        padding: 6%;
     }
     .header-banner-image{
-        width: 353px;
-        height: 588px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        margin-right: 0px;
     }
-    .header-banner-image-all{
-        margin: 20px auto;
+    .btn-3{
+        margin-left: -18vh;
+        margin-top: 7vh;
     }
-    .btn-container-1{
-        margin:10px 20px;
-    }
-    .habit{
-        width: 338px;
-    }
-    .exercise{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+    .btn-4{
+        margin-left: -35vh;
+        margin-top: 40vh;
     }
 }
