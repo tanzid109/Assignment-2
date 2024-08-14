@@ -19,6 +19,9 @@ body{
     max-width:1440px;
     margin: 0 auto;
 }
+.header{
+    background-image: linear-gradient(to right, rgba(17,17,17,1), rgba(119,119,119,0.1));
+}
 .main-nav{
     display: flex;
     justify-content: space-between;
