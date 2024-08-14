@@ -109,6 +109,7 @@
         margin: 0 auto;
     }
     .bmi-chart{
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 5%;
@@ -172,9 +173,10 @@
         justify-content: center;
         align-items: flex-start;
         margin-left: 3%;
+        margin-bottom: 5%;
     }
     .footer-main{
-        width: 100%;
+        width: 90%;
     }
     .condition{
         font-size: 1.5rem;
